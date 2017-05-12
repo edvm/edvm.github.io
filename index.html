@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>[WIP] 80s grid animation </title>
+  
+  
+<link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Yellowtail'>
+<link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Orbitron:400,700,900'>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+     <h1>Emiliano </h1>
+     <h2>Dalla Verde Marcozzi</h2>
+     <div class="button" style="position: absolute; width: 100%; bottom: 50px;">PROGRAMADOR</div>
+     <link async href="http://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+     
+    <svg height="320" width="400" class="logo-triangle">
+        <defs>
+            <linearGradient id="grad1" x1="0%" y1="100%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:rgb(50,50,50);stop-opacity:1" />
+                <stop offset="100%" style="stop-color:black;stop-opacity:1" />
+            </linearGradient>
+        </defs>
+        <filter id="dropshadow" height="130%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+            <feOffset dx="2" dy="2" result="offsetblur" />
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+        <polygon points="0,0 400,0 200,300" stroke="#36e2f8" stroke-width="3" />
+    </svg>
+  
+</div>
+<script id="vertexShader" type="x-shader/x-vertex">
+
+// Uniforms
+uniform float time;
+varying vec3 vNormal;
+      
+void main(void) {
+   vec3 v = position;
+   vNormal = normal;
+   v.z += sin(2.0 * position.x + (time)) * 925.5;
+	
+   gl_Position = projectionMatrix *
+                modelViewMatrix *
+                vec4(v, 0.9);
+}
+
+		</script>
+
+
+		<script id="fragmentShader" type="x-shader/x-fragment">
+varying vec3 vNormal;
+uniform float time;
+      
+void main(void) {
+    vec3 light = vec3(0.3, .9, .1);
+
+    light = normalize(light);
+
+    float dProd = max(0.2, dot(vNormal, light));
+
+    gl_FragColor = vec4(0, // R
+                      84, // G
+                      25, // B
+                      1.0);  // A
+}
+
+		</script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r58/three.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
