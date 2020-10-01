@@ -1,7 +1,7 @@
 # Emiliano Dalla Verde Marcozzi
 
 - https://github.com/edvm
-- Last update: Feb 23, 2020.
+- Last update: Oct 1, 2020.
 
 ## ABOUT ME
 I am self-taught, so I do not have a university degree (I had to start working at a very young age). After some years working as a programmer, in 2015 I had the opportunity to study for a diploma in free (as in freedom) software at the Universidad del Este, La Plata. My experience is mostly in the backend development field using Python. Also, in the last few years I have worked with Javascript/Vuejs/Reactjs in the  front-end field.
