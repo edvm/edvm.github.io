@@ -5,7 +5,7 @@
 - Last update: Nov 18, 2021.
 
 ## ABOUT ME
-I am self-taught, so I don't have a university degree (I had to start working at a very young age). After some years working as a programmer, in 2015 I had the opportunity to study for a diploma in free (as in freedom) software at the Universidad del Este, La Plata, Argentina. My experience is mostly in the backend development field using Python. Also, in the last few years, I have been working in the frontend too with Reactjs/Gatsby/Vuejs.
+I am self-taught, so I don't have a university degree (I had to start working at a very young age). After some years working as a programmer, in 2015 I had the opportunity to study for a diploma in free (as in freedom) software at the Universidad del Este, La Plata, Argentina. My experience is mostly in the backend development field using Python, Scala and Javascript. Also, in the last few years, I have been working in the frontend too with Reactjs/Gatsby/Vuejs.
 
 
 ## LANGUAGES
