@@ -1,10 +1,12 @@
 # Emiliano Dalla Verde Marcozzi
 
+- Current location: Boston, Massachusetts, United States
 - https://github.com/edvm
-- Last update: Dec 26, 2020.
+- Last update: Nov 18, 2021.
 
 ## ABOUT ME
-I am self-taught, so I do not have a university degree (I had to start working at a very young age). After some years working as a programmer, in 2015 I had the opportunity to study for a diploma in free (as in freedom) software at the Universidad del Este, La Plata. My experience is mostly in the backend development field using Python. Also, in the last few years I have worked with Javascript/Vuejs/Reactjs in the  front-end field.
+I am self-taught, so I don't have a university degree (I had to start working at a very young age). After some years working as a programmer, in 2015 I had the opportunity to study for a diploma in free (as in freedom) software at the Universidad del Este, La Plata, Argentina. My experience is mostly in the backend development field using Python. Also, in the last few years, I have been working in the frontend too with Reactjs/Gatsby/Vuejs.
+
 
 ## LANGUAGES
 
@@ -19,7 +21,7 @@ I am self-taught, so I do not have a university degree (I had to start working a
 ## EXPERIENCE
 
 ### Encortex, Boston, USA — Software developer
-*JUNE 2020 - PRESENT*. [Encortex](https://www.encortex.net/) helps businesses grow revenue by optimizing digital interactions. My day-to-day consists on programming distributed stream oriented services in Python. The technology stack we use is huge, just to mention a few: Apache Kafka, Apache Airflow, gRPC, Flask, PostgreSQL, Amazon Redshift, Amazon RDS, Flyway, Couchbase, Celery, RabbitMQ, Kibana, Logstash, Filebeat, Docker, etc. Tests are a must, so Pytest is my friend. Also, I lead a small team (distributed across the globe, developers from Russia, USA, Argentina) in a product that implements a REST API (Django Rest Framework) and a JAMStack site (using Gatsby, a React server-side rendering framework).
+*JUNE 2020 - PRESENT*. [Encortex](https://www.encortex.net/) helps businesses grow revenue by optimizing digital interactions. My day-to-day consist on programming distributed stream-oriented services in Python and Scala (now processing 2300 transactions per second). The technology stack we use is huge, just to mention a few: Apache Kafka, Apache Airflow, gRPC, Flask, PostgreSQL, Amazon Redshift, Amazon RDS, Flyway, Couchbase, Celery, RabbitMQ, Kibana, Logstash, Filebeat, Docker, etc. Tests are a must, so Pytest is my friend. Also, I led a small team (distributed across the globe, developers from Russia, USA, Argentina) in a product that implements a REST API (Django Rest Framework) and a JAMStack site (using Gatsby, a React server-side rendering framework). Also, coding some network services implemented in Scala (using Akka, Play and Lagom)
 
 ### Devsar, La Plata — Senior software developer
 *APRIL 2015 - JUNE 2020*. [Devsar](https://www.devsar.com/) is a global consulting & software development firm specialized in web & mobile app development. My position as a Senior Software Developer means to mentor/help other teams, design the architecture of the clients' systems and write the source code. In the time I have worked I have used several technologies, such as: Python/Django, DRF, GraphQL, Flask, Starlette, FastAPI, PostgreSQL MongoDB, Vuejs, Reactjs, Celery, AWS Ecosystem (EC2, Lambda, API Gateway, ElasticCache), Serverless, Redis, Stripe, Elasticsearch, Apache Kafka, Docker and Docker compose.
